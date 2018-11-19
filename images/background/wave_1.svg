@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="568px" viewBox="0 0 1280 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.56">
+        <g id="website_1" fill="#FF0036">
+            <g id="background_overlay">
+                <path d="M0,341.683594 C92.5981509,409.620031 180.820807,441.897374 264.667969,438.515625 C390.438711,433.443001 419.23168,432.785156 628.089844,465.355469 C836.948008,497.925781 889.835938,567.640625 1006.85938,567.640625 C1084.875,567.640625 1175.92187,517.166667 1280,416.21875 L1280,0 L0,0 L0,341.683594 Z" id="wave_1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

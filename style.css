@@ -1,0 +1,247 @@
+@font-face {
+  font-family: helvetica;
+  src: url(./fonts/helvetica.ttf);
+}
+body{
+  font-family: helvetica !important;
+}
+
+.button-languages img{
+  margin-right: 0.5rem;
+
+}
+
+
+.button-languages img:hover{
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+
+cursor: pointer;
+
+}
+
+.title,.description{
+  color: white;
+    font-family: helvetica !important;
+}
+.title{
+  font-weight: bold;
+}
+
+.logo{
+  margin-left: auto;
+}
+header{
+  padding-top: 2rem;
+}
+.btn-stores{
+    background: #22213B;
+    font-family: helvetica !important;
+    border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -webkit-border-radius: 40px !important;
+    padding: 0 1.2rem;
+    text-align: left;
+    border: none;
+}
+.fdb-block img{
+  max-height: 550px;
+}
+
+
+.btn-stores .logo-button{
+  font-size: 2rem;
+  margin-right: 0.2rem;
+  margin-left: 0.3rem;
+}
+
+.btn-stores .logo-button img{
+  height: 30px;
+  margin-bottom: 6px;
+}
+
+.btn-stores .text-container{
+  display: inline-block;
+  text-align: left;
+}
+.btn-stores .text-container .text-up{
+  font-size: 10px;
+}
+.btn-stores .text-container .text-down{
+  font-size: 14px;
+}
+
+.padding-top-0{
+  padding-top: 0;
+}
+
+.background-oval-1{
+  position: absolute;
+  background-image: url('./images/background/center_oval_1.svg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-oval-2{
+  position: absolute;
+  background-image: url('./images/background/center_oval_2.svg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-oval-3{
+  position: absolute;
+  background-image: url('./images/background/center_oval_3.svg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-wave-1{
+  position: absolute;
+  background-image: url('./images/background/wave_1.svg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-wave-2{
+  position: absolute;
+  background-image: url('./images/background/wave_2.svg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fdb-block{
+  background: transparent;
+}
+
+.image-md{
+  display: block;
+}
+.image-lg{
+  display: none;
+}
+
+
+/*
+ * The Standard Breakpoints. Working with fluid images.
+*/
+@media all and (min-width: 2430px) {
+  body{
+    zoom: 1.7;
+    -moz-transform: scale(1.7);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
+
+/*
+ * The Standard Breakpoints. Working with fluid images.
+*/
+@media all and (max-width: 2430px) {
+  body{
+    zoom: 1.5;
+    -moz-transform: scale(1.5);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
+/*
+ * The Standard Breakpoints. Working with fluid images.
+*/
+@media all and (max-width: 2230px) {
+  body{
+    zoom: 1.4;
+    -moz-transform: scale(1.4);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
+/*
+ * The Standard Breakpoints. Working with fluid images.
+*/
+@media all and (max-width: 1930px) {
+  body{
+    zoom: 1.2;
+    -moz-transform: scale(1.2);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
+@media all and (max-width: 1690px) {
+  body{
+    zoom: 1.1;
+    -moz-transform: scale(1.1);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
+
+@media all and (max-width: 1590px) {
+  body{
+    zoom: 0;
+    -moz-transform: scale(0);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+      max-height: 550px;
+  }
+}
+@media all and (max-width: 980px){
+  body{
+    zoom: 0;
+    -moz-transform: scale(1.7);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
+@media all and (max-width: 736px) {
+  body{
+    zoom: 0;
+    -moz-transform: scale(1.7);
+    -moz-transform-origin: 0 0;
+  }
+
+    .fdb-block img{
+      max-height: 100%;
+    }
+}
+@media all and (max-width: 480px) {
+  body{
+    zoom: 0;
+    -moz-transform: scale(1.7);
+    -moz-transform-origin: 0 0;
+  }
+
+  .fdb-block img{
+    max-height: 100%;
+  }
+}
